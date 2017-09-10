@@ -15,7 +15,7 @@ It's a very simple bus that essentially exposes different communication buses. T
 * GND
 * 5V
 
-The standard power supply for GMX modules is 3.3V. The 5V is not compulsory and has been inserted only for legacy HW that need the 5V rail. 
+The standard power supply for GMX modules is 3.3V  and <b>all signal levels are 3.3V</b>. The 5V is not compulsory and has been inserted only for legacy HW that need the 5V rail, avoiding the necessity of adding a step-up converter on the module.
 
 ## Module Control Pin
 * gmxRESET
@@ -29,7 +29,7 @@ The standard power supply for GMX modules is 3.3V. The 5V is not compulsory and 
 
 <b>IDENT_1Wire</b>: One-Wire connection to the onboard EEPROM/PROM - usually a  [DS28EC20](https://www.maximintegrated.com/en/products/digital/memory-products/DS28EC20.html). This is currently optional, it's functionality has not yet been implemented. It will allow the host processor to identify the functionalities of the inserted module.<br/>
 <br/>
-<b>gmxCONNECT</b>: Presence pin. On the module should be pulled UP a VCC (3.3V), the host processor will identify the presence of a module on the bus via this pin.<br/>
+<b>gmxCONNECT</b>: Presence pin. On the module should be pulled UP to VCC (3.3V), the host processor will identify the presence of a module on the bus via this pin.<br/>
 
 ## Programming / Debugging Pins
 * SWDIO, SWCLK, SWO/V
