@@ -52,5 +52,13 @@ GMX Modules are mainly <b>Slave</b> devices connected to a host MCU. But you can
 * SPI CS become output. 
 * gmxInt  become input. Interrput from the peripheral
 
+# Physical connector
+The GMX bus is based on a standard 2x12 pin 0.05" or 1.27 mm pitch connector.<br>
+<img src="/docs/female.png"/><br/>
+<br>
+Click [here](https://www.digikey.ch/product-detail/en/amphenol-fci/20021321-00024T4LF/609-3774-ND/2209104?keywords=609-3774-ND&cur=EUR&lang=en) for an example of the female connector on Digikey<br/>
+And [here](https://www.digikey.ch/product-detail/en/harwin-inc/M50-4911245/952-3150-ND/6556204) an example of the male connector.
 
+# Physical dimensions
+The maximum dimensions for a GMX module are 30mmx60mm, like in the picture.
 
