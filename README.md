@@ -47,7 +47,7 @@ The standard GMX bus specification has alternate functions for the GPIO pins lay
 
 
 # Master or Slave
-GMX Modules are mainly <b>Slave</b> devices connected to a host MCU. But you can also deliver <b/>Master<b> devices, ie. having the main MCU on the module and driving thought the GMX bus peripherals. In this scenario the 'basic' pin direction get's reversed:<br/>
+GMX Modules are mainly <b>Slave</b> devices connected to a host MCU. But you can also deliver <b>Master</b> devices, ie. having the main MCU on the module and driving thought the GMX bus peripherals. In this scenario the 'basic' pin direction get's reversed:<br/>
 * gmxRESET becomes output. Reset to the peripheral board
 * SPI CS become output. 
 * gmxInt  become input. Interrput from the peripheral
