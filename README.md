@@ -60,5 +60,5 @@ Click [here](https://www.digikey.ch/product-detail/en/amphenol-fci/20021321-0002
 And [here](https://www.digikey.ch/product-detail/en/harwin-inc/M50-4911245/952-3150-ND/6556204) an example of the male connector.
 
 # Physical dimensions
-The maximum dimensions for a GMX module are 30mmx60mm, like in the picture.
+The maximum dimensions for a GMX module are 30mmx50mm, like in the picture.
 
