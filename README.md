@@ -1,6 +1,6 @@
 # GMX
-The GMX ( <b>G</b>imasi <b>M</b>odule e<b>X</b>change ) bus has been developed for the Tuino family to easily bring on the platform different RF modules.<br/>
-Its a very simple bus that essentially exposes different communication buses. The idea was to standardize the layout of the GPIO pins.<br/>Here the layout:<br/>
+The GMX ( <b>G</b>imasi <b>M</b>odule e<b>X</b>change ) bus has been developed for the Tuino family to easily bring on the platform different RF modules.
+It's a very simple bus that essentially exposes different communication buses. The idea was to standardize the layout of the GPIO pins.<br/>Here the layout:<br/>
 <img src="/docs/gmx_bus.png"/><br/>
 <br/>
 
